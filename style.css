@@ -13,10 +13,42 @@
     left: 0;
     width: 100%;
     padding: 35px 12%;
-    background: rgba(0,0,0,0.8);
+    background-color: #C8A1E0;
     backdrop-filter: blur(10px);
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 100;
 }
+
+.logo{
+    font-size: 25px;
+    color: white;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.logo:hover{
+    color:#674188;
+    text-shadow: 0 0 25px #674188, 0 0 50px #674188;
+    transform: scale(1.1);
+}
+
+span{
+    color: #674188;
+    
+}
+
+.navbar a{
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+    margin: 0 20px;
+    border-bottom: 3px solid transparent;
+    transition: 0.3s ease;
+}
+
+.navbar a:hover{
+    color:#674188;
+}
+
